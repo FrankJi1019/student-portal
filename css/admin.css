@@ -1,0 +1,62 @@
+body {
+    padding: 30px 50px;
+}
+
+.auth-block {
+    display: flex;
+    align-items: center;
+}
+
+.auth-block div {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.course-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #777;
+}
+
+.course-table .row:first-child {
+    background-color: #777;
+}
+
+.course-table .row:first-child div {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course-table .row:nth-child(2n) {
+    background-color: #99ffce;
+}
+
+.row div {
+    flex: 1
+}
+
+.row {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    cursor: default;
+}
+
+.row .name {
+    flex: 2;
+}
+
+.row .action {
+    flex: 1;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: #555;
+}
